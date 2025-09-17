@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital@1&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Inter',sans-serif ;
+}
+
+/*navbar*/
+
+.navbar{
+background: #251749;
+height: 50px;
+}
+
+.navlogo.navbar-brand{
+    color: #FFFFFF;
+}
+
+.logo1{
+    width: 100px;
+}
+
+.linkn.nav-link{
+    color: #ffffffb9;
+}
+
+.linkn.nav-link:hover{
+    color: #FFFFFF;
+}
+
+.linkn.nav-link.active{
+    color: #FFFFFF !important;
+    font-weight: 700;
+}
+
+/*Section 1*/
+
+.container1{
+    background-image: url(img/Container1.png);
+    height: 750px;
+    width: 100%;
+    background-position: right;
+    background-size:cover;
+    display:block;
+}
+
+.triangle1{
+    width: 60%;
+    height: 100%;
+    clip-path: polygon(0 100%, 70% 100%, 100% 70%, 95% 65%, 100% 60%, 95% 55%, 100% 50%, 50% 0, 0 0);
+    position: relative;
+    overflow: hidden;
+    background-color: #495579;
+}
+
+.triangle2{
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0 100%, 60% 100%, 100% 60%, 95% 55%, 100% 50%, 65% 0%, 0% 0%);
+    position: relative;
+    overflow: hidden;
+    background-color: #263159;
+}
+
+.triangle{
+    background-image: url(img/Container1.png);
+    background-position:left;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0% 0%, 50% 0, 100% 50%, 50% 100%, 0% 100%);
+    padding-left: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: #251749cc;
+}
+.textovr{
+    text-align: center;
+    top: 30%;
+    right: 10%;
+    position: relative;
+}
+
+.logo2{
+    width: 200px;
+}
+
+.textovr1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.textovr2{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+/*Section 2*/
+
+.container2{
+    background-image: url(img/Container2.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.shapes{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
+    background-color: #251749;
+    width: 70%;
+    height: 700px;
+    position: absolute;
+    overflow: hidden;
+    right: 0px;
+}
+
+.texts{
+    top: 25%;
+    position: absolute;
+    left: 35%;
+}
+
+.texts1{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.texts2{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.texts3{
+    font-size: 24px;
+}
+
+/*alasan*/
+
+.card1{
+    height: 600px;
+    background-color: #495579;
+
+}
+
+.h1c{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+.h1c2{
+    font-size: 30px;
+    height: 120px;
+}
+
+.pc{
+    font-size: 20px;
+}
+
+.btms {
+    position: absolute; 
+    width: 100%;
+    height: 5%;
+    left: 0;
+    bottom: 0;
+    background-color: #251749;
+  }
+
+.bc{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.circle{
+    width: 30px;
+    height: 30px;
+    background-color: #251749;
+    border-radius: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+}
+
+/*wilayah*/
+
+.wilayah{
+    height: 800px;
+    background-color: #251749;
+}
+
+.carouselwilayah{
+    height: 600px;
+    width: 100%;
+    border-radius: 50px;
+    background-size: contain;
+}
+
+.textcarousel{
+    font-size: 40px;
+    font-style: italic;
+    text-shadow: 5px 5px #251749;
+}
+
+.wilayah1{
+    font-size: 44px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.iconcarousel{
+    font-size: 50px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px  #251749;
+}
+
+.bi.bi-chevron-right{
+    position: relative;
+    left: 30;
+}
+
+.bi.bi-chevron-left{
+    position: relative;
+    right: 30;
+}
+
+/*feedback*/
+
+.feedb1{
+    height: 700px;
+    background-color: #495579;
+
+}
+
+.h1f{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+.h1f2{
+    font-size: 30px;
+
+}
+
+.pf{
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+
+.fc{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.sfeed{
+    width: 100%;
+    height: 25%;
+    background-color: #263159;
+    border-radius: 20px;
+}
+
+.circle2{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    position: relative;
+    background-image: url(img/denish.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.circle3{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    position: relative;
+    background-image: url(img/sweta.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #495579;
+}
+
+.pcir{
+    position: relative;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    left: 8%;
+    bottom: 90%;
+    color: #FFFFFF;
+}
+
+.pcir2{
+    position: relative;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    right: 8%;
+    bottom: 90%;
+    color: #FFFFFF;
+}
+
+/*footer*/
+
+.footer.py-4{
+    background-color: #251749;
+    
+}
+
+.footerleft{
+    height: 50px;
+    margin-left: -30px;
+}
+
+.footerright{
+    height: 50px;
+    float: right;
+}
+
+
+
+.foot{
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.h1foot{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.pfoot{
+    font-size: 12px;
+}
+
+.pfootr{
+    font-size: 12px;
+    position: relative;
+    left: 90%;
+}
+
+.pfootr1{
+    font-size: 12px;
+    position: relative;
+    left: 90%;
+    text-align: right;
+}
+
+.pfootr2{
+    font-size: 20px;
+    position: relative;
+    left: 87%;
+}
+
+.bi.bi-telephone-fill{
+    font-size: 16px;  
+    position: relative;  
+    left: -3px;
+    top: 2px;
+}
+
+.bi.bi-envelope-fill{
+    font-size: 16px;
+    top: 2.5px;
+    right: 8px;
+    position: relative;
+}
+
+.h1footr{
+    position: relative;
+    left: 70%;
+    font-size: 16px;
+    text-align: end;
+    font-weight: bold;
+
+}
+
+.h1footr2{
+    position: relative;
+    left: 45%;
+    font-size: 16px;
+    text-align: end;
+    font-weight: bold;
+
+}
+
+.afoot{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footr1{
+    position: relative;
+    left: 5%;
+}
+
+.footr2{
+    position: relative;
+    left: 35%;
+}
+
+.copyright.container.pt-4{
+    text-align: center;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.hr1{
+    border:1px thick #ffffff;    
+    border-width: 2px;
+}
+
+.pftr{
+    font-size: 12px;
+    color: #FFFFFF;
+}
+

@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital@1&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Inter',sans-serif ;
+}
+
+/*navbar*/
+
+.navbar{
+background: #251749;
+height: 50px;
+}
+
+.navlogo.navbar-brand{
+    color: #FFFFFF;
+}
+
+.logo1{
+    width: 100px;
+}
+
+.linkn.nav-link{
+    color: #ffffffb9;
+}
+
+.linkn.nav-link:hover{
+    color: #FFFFFF;
+}
+
+.linkn.nav-link.active{
+    color: #FFFFFF !important;
+    font-weight: 700;
+}
+
+/*Section 1*/
+
+.banner1{
+    background-image: url(img/bannerrumah.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 200px;
+    width: 100%;
+    background-position: 0% 60% ;
+}
+
+.background{
+    height: 950px;
+    background-color: #495579;
+}
+
+.h1c{
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+.btms {
+    position: absolute; 
+    padding: 10px;
+    width: 100%;
+    height: 150px;
+    left: 0;
+    bottom: 0;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+  }
+
+.btmsh1{
+    font-size: 20px;
+    color: #251749;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btmsp1{
+    font-size: 12px;
+    color: #495579;
+}
+
+.btmsp2{
+    font-size: 14px;
+    color: #251749;
+    font-weight: bold;
+
+}
+
+.bc{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.imgbc11{
+    width: 100%;
+    height: 220px;
+    background-image: url(img/rumahd1.png);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-size: cover;
+}
+
+.imgbc12{
+    width: 100%;
+    height: 220px;
+    background-image: url(img/rumahd2.png);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-size: cover;
+
+}
+
+.imgbc13{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-image: url(img/rumahd3.png);
+}
+
+.imgbc14{
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 220px;
+    background-image: url(img/rumahd4.png);
+}
+
+.imgbc15{
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 220px;
+    background-image: url(img/rumahd5.png);
+}
+
+.imgbc16{
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 220px;
+    background-image: url(img/rumahd6.png);
+}
+
+.imgbc17{
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 220px;
+    background-image: url(img/rumahd7.png);
+}
+
+.imgbc18{
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 220px;
+    background-image: url(img/rumahd8.png);
+}
+
+
+/*Section 2*/
+
+.banner2{
+    background-image: url(img/bannertanah.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    background-position:0% 60%;
+    width: 100%;
+}
+
+.bc{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.imgbc21{
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 220px;
+    background-image: url(img/tanah1.png);
+}
+
+.imgbc22{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    background-size: cover;
+    height: 220px;
+    background-image: url(img/tanah2.png);
+}
+
+.imgbc23{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    background-size: cover;
+    height: 220px;
+    background-image: url(img/tanah3.png);
+}
+
+.imgbc24{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-image: url(img/tanah4.png);
+}
+
+.imgbc25{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-image: url(img/tanah5.png);
+}
+
+.imgbc26{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-image: url(img/tanah6.png);
+}
+
+.imgbc27{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-image: url(img/tanah7.png);
+}
+
+.imgbc28{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-image: url(img/tanah8.png);
+}
+
+/*Section 3*/
+
+.banner3{
+    background-image: url(img/bannerapart.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    background-position: bottom;
+}
+
+.bc{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.imgbc31{
+    border-top-right-radius: 10px;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 220px;
+    background-image: url(img/apartd1.png);
+}
+
+.imgbc32{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    background-size: cover;
+    height: 220px;
+    background-image: url(img/apartd2.png);
+}
+
+.imgbc33{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 220px;
+    background-image: url(img/apartd3.png);
+    background-size: cover;
+
+}
+
+.imgbc34{
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 220px;
+    background-image: url(img/apartd4.png);
+}
+
+.imgbc35{
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 220px;
+    background-image: url(img/apartd5.png);
+}
+
+.imgbc36{
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 220px;
+    background-image: url(img/apartd6.png);
+}
+
+.imgbc37{
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 220px;
+    background-image: url(img/apartd7.png);
+}
+
+.imgbc38{
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 220px;
+    background-image: url(img/apartd8.png);
+}
+
+/*footer*/
+
+.footer.py-4{
+    background-color: #251749;
+    
+}
+
+.foot{
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.h1foot{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.pfoot{
+    font-size: 12px;
+}
+
+.pfootr{
+    font-size: 12px;
+    position: relative;
+    left: 90%;
+}
+
+.pfootr1{
+    font-size: 12px;
+    position: relative;
+    left: 90%;
+    text-align: right;
+}
+
+.pfootr2{
+    font-size: 20px;
+    position: relative;
+    left: 87%;
+}
+
+.bi.bi-telephone-fill{
+    font-size: 16px;  
+    position: relative;  
+    left: -3px;
+    top: 2px;
+}
+
+.bi.bi-envelope-fill{
+    font-size: 16px;
+    top: 2.5px;
+    right: 8px;
+    position: relative;
+}
+
+.h1footr{
+    position: relative;
+    left: 70%;
+    font-size: 16px;
+    text-align: end;
+    font-weight: bold;
+
+}
+
+.h1footr2{
+    position: relative;
+    left: 45%;
+    font-size: 16px;
+    text-align: end;
+    font-weight: bold;
+
+}
+
+.afoot{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footr1{
+    position: relative;
+    left: 5%;
+}
+
+.footr2{
+    position: relative;
+    left: 35%;
+}
+
+.copyright.container.pt-4{
+    text-align: center;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.hr1{
+    border:1px thick #ffffff;    
+    border-width: 2px;
+}
+
+.pftr{
+    font-size: 12px;
+    color: #FFFFFF;
+}
